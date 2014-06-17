@@ -1,19 +1,24 @@
 #mapdiv {
-	width: 440px; 
-	height: 277px;
-	border:0px;
-	padding:0px;
-	cursor:pointer;
-	
+width: 440px;
+height: 277px;
+border: 0px;
+padding: 0px;
+cursor: pointer;
+}
+#State {
+height: 200px;
+width: 440px;
+}
+#clearbtn {
+width: 440px;
 }
 .jvectormap-region[data-code="labels"], .jvectormap-region[data-code*="leader"] {
-			fill:#434546;
-			stroke:#434546;
-			fill-opacity:1;
+fill: #434546;
+stroke: #434546;
+fill-opacity: 1;
 }
 .jvectormap-region[data-code*="bg_"] {
-			fill:#96a7be;
-			stroke:none;
-			fill-opacity:1;
-				
+fill: #96a7be;
+stroke: none;
+fill-opacity: 1;
 }
